@@ -13,7 +13,7 @@ console.log("Appwrite Config:", {
 });
 
 const client = new Client()
-  .setEndpoint("https://cloud.appwrite.io/v1")
+  .setEndpoint("https://nyc.cloud.appwrite.io/v1")
   .setProject(PROJECT_ID);
 
 const database = new Databases(client);
